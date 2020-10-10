@@ -1,0 +1,25 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.table-elements{
+    margin:auto;
+    margin-top: 60px;
+    background-color: #E6E6E6;
+    box-shadow: 5px 5px 10px #848484;
+    box-sizing: 12px;
+}
+
+.table-elements tr td {
+    padding: 6px;
+
+}
+
+
+#map {
+    height: 100%;
+}
