@@ -138,7 +138,7 @@ function draw_rute(value) {
                 draw_rute_map(response.lat, response.lng);
             }
         });
-        console.log("el valor " + value);
+       
     }
 }
 
@@ -168,12 +168,6 @@ function draw_rute_map(lat, lng) {
     });
 
 }
-
-
-function draw_mode() {
-    document.getElementById("demo").innerHTML = "Para" + lat + "long" lng;
-};
-
 
 function findMe() {
     var output = document.getElementById('map');
